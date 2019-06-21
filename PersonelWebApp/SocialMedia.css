@@ -1,4 +1,8 @@
-﻿html {
+﻿.rounded {
+    border-radius: .70rem !important
+}
+
+html {
     margin: 40px auto;
     text-align: center;
 }
