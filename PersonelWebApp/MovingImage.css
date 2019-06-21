@@ -1,0 +1,14 @@
+﻿.container{
+    max-width: 960px;
+    margin: 0 auto;
+    background: #808080;
+    font-size: 24px;
+    padding: 25px;
+
+}
+.parallax{
+    background: url('Images/BackgroundImage.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 1000px;
+}
