@@ -6,9 +6,9 @@
     padding: 25px;
 
 }
-.parallax{
-    background: url('Images/BackgroundImage.jpg') no-repeat center;
+.parallax {
+    background: url('Images/boris-stefanik-131519-unsplash.jpg') no-repeat center;
     background-size: cover;
     background-attachment: fixed;
-    height: 5000px;
+    height: 1000px;
 }
