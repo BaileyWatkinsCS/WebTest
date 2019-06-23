@@ -127,7 +127,6 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
-    <Content Include="Images\BackgroundImage.jpg" />
     <Content Include="Images\boris-stefanik-131519-unsplash.jpg" />
     <Content Include="MovingImage.css" />
     <Content Include="Scripts\bootstrap.js" />
