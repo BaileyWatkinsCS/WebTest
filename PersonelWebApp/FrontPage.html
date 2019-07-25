@@ -38,6 +38,12 @@
             margin-bottom: 0;
         }
     </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="MovingImage.css" />
     <link rel="stylesheet" href="SocialMedia.css" />
 
@@ -46,81 +52,99 @@
 <body>
 
     <script src="..\Scripts\test.js"></script>
-<div class="parallax">
-    <div class="panel-heading">
-        <h1 class="text-center" style="font-family:georgia,garamond,serif;font-size:55px;font-style:italic;  color: #000000;"> Welcome To My Website</h1>
-
-            <div class="container rounded">
+    <div class="parallax">
+        <div class="panel-heading ">
+            <h1 class="text-center" style="font-family:georgia,garamond,serif;font-size:50px;font-style:italic;  color: #000000;"> Welcome To My Website</h1>
+            <!--<div class="col-lg-3 text-center">
+            <div class="img-thumbnail rounded">
                 <p>
-                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-
-
+                    “Don’t give up, there’s no shame in falling down! True shame is to not standing up again!” ~ Shintaro Midorima
                 </p>
 
             </div>
+        </div>-->
 
-    </div>
-    <!-- Test Stuff-->
+        </div>
+        <div class="container rounded" style="margin-top:30px">
+            <ul class="nav nav-pills rounded">
+                <li class="nav-item pill active">
+                    <a class="nav-link" style=" color:black" data-toggle="pill" href="#home">Home</a>
+                </li>
+                <li class="nav-item pill">
+                    <a class="nav-link" style="color:black" data-toggle="pill" href="#menu1">Menu 1</a>
+                </li>
+                <li class="nav-item pill">
+                    <a class="nav-link" style="color:black" data-toggle="pill" href="#aboutme">About Me</a>
+                </li>
+            </ul>
+            <div class="tab-content" style="border:hidden;">
+                <div class="tab-pane container active" id="home">...</div>
 
-    <div class="container" style="margin-top:30px">
+                <div class="tab-pane container fade" id="menu1">...</div>
+                <div class="tab-pane container fade" id="aboutme">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <h2>About Me</h2>
+                            <h5>Bailey Watkins</h5>
+                            <div class="fakeimg"><img alt="ProfilePic" src="Images/download.png" style="width:200px;height:200px; border: groove" /> </div>
+                            <div class="text-center">
+                                <h3>Resume:</h3>
+                            </div>
+                            <ul class="nav nav-pills flex-column">
+                                <li class="nav-item">
+                                    <!--<a class="nav-link active rounded" href="RESUME ALOS ADD FILE TO PROJECT!">Active</a> -->
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-8">
+                            <h3>Background:</h3>
+                            <h5>Age: 21,</h5>
+                            <h5>From: Aztec,NM,</h5>
+                            <h5>School: UW-Platteville,</h5>
+                            <h5>Major: Computer Science,</h5>
+                            <h5>Minor: Business Administration,</h5>
+                            <br>
+                            <h3>Intro To Coding:</h3>
+                            <div style="font-size:16px;">
+                                <p style="text-indent: 2em;">
+                                    When I was younger I was infatuated with technology and all the wonderful things it could do. Little did I know then I would dive into the deep ocean of coding and explore the
+                                    ever-growing fields that exists cause of it. I didn't actually start coding however till my freshman year of college. This is when I took an intro course of computer science as an elective.
+                                    It was a basic course that focused more on scripts and simple programming. I was fascinated with all the possibilities to consistently solve new problems. I would consider myself a problem solver
+                                    as I like to come up with new ways of solving problems and be able to try to do something better than it has done before. After this I decided to change my major to Computer Science and take my
+                                    first big step to where I am now. Recently I was able to explore that even further.
+                                </p>
+                            </div>
+                            <br>
 
-        <div class="row">
-            <div class="col-sm-4">
-                <h2>About Me</h2>
-                <h5>Photo of me:</h5>
-                <div class="fakeimg">Fake Image</div>
-                <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-                <h3>Some Links</h3>
-                <p>Lorem ipsum dolor sit ame.</p>
-                <ul class="nav nav-pills flex-column">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Active</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Disabled</a>
-                    </li>
-                </ul>
-                <hr class="d-sm-none">
-            </div>
-            <div class="col-sm-8">
-                <h2>TITLE HEADING</h2>
-                <h5>Title description, Dec 7, 2017</h5>
-                <div class="fakeimg">Fake Image</div>
-                <p>Some text..</p>
-                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                <br>
-                <h2>TITLE HEADING</h2>
-                <h5>Title description, Sep 2, 2017</h5>
-                <div class="fakeimg">Fake Image</div>
-                <p>Some text..</p>
-                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                            <h3>Intern Experience:</h3>
+                            <div style="font-size:16px;">
+                                <p>
+                                    This summer I was lucky enough to be able to take my coding knowledge from school and personal projects to the workplace. I was able to get an internship with Cottingham & Butler located in Dubuque,
+                                    Iowa. There I helped develop software that sped up the time of a process that took hours to do. Now it only takes 30 min. Through the internship I also helped create an in-house web portal using
+                                    Bootstrap and KnockoutJS to help speed up and clean a previous way of doing a project.  Being able to be challenged and go after new problems was so satisfying and I can’t wait to see what other
+                                    problems I will be able to face in the future and see the solutions I will come up with.
+                                </p>
+                                <br>
+                            </div>
+                            <h3>Skill Set:</h3>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+
+        <div class="panel-footer text-center" style=" color: #ddd">
+            <p>Posted by: Bailey M. Watkins.</p>
+            <p>
+                <a href="https://www.linkedin.com/in/bailey-watkins-106835187" title="LinkedIn" class="btn btn-linkedin btn-lg"><i class="fa fa-linkedin fa-fw"></i> LinkedIn</a>
+                <a href="#" title="Facebook" class="btn btn-facebook btn-lg"><i class="fa fa-facebook fa-fw"></i> Facebook</a>
+                <a href="#" title="Instagram" class="btn btn-linkedin btn-lg"><i class="fa fa-instagram fa-fw"></i> Instagram</a>
+                <a href="https://github.com/BaileyWatkinsCS" title="GitHub" class="btn btn-linkedin btn-lg"><i class="fa fa-github fa-fw"></i> GitHub</a>
+            </p>
+            <p>
+                Contact information: <a href="watkins1212@hotmail.com">watkins1212@hotmail.com</a>.
+            </p>
+        </div>
     </div>
-    <!-- Test Stuff-->
-
-    <div class="panel-footer text-center" style=" color: #000000">
-        <p>Posted by: Bailey M. Watkins.</p>
-        <p>
-            <a href="https://www.linkedin.com/in/bailey-watkins-106835187" title="LinkedIn" class="btn btn-linkedin btn-lg"><i class="fa fa-linkedin fa-fw"></i> LinkedIn</a>
-            <a href="#" title="Facebook" class="btn btn-facebook btn-lg"><i class="fa fa-facebook fa-fw"></i> Facebook</a>
-            <a href="#" title="Instagram" class="btn btn-linkedin btn-lg"><i class="fa fa-instagram fa-fw"></i> Instagram</a>
-            <a href="https://github.com/BaileyWatkinsCS" title="GitHub" class="btn btn-linkedin btn-lg"><i class="fa fa-github fa-fw"></i> GitHub</a>
-        </p>
-
-
-        <p>
-            Contact information: <a href="watkins1212@hotmail.com">watkins1212@hotmail.com</a>.
-        </p>
-
-    </div>
-</div>
-
 </body>
 </html>

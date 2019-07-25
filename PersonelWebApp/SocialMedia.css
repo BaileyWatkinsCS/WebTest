@@ -2,6 +2,17 @@
     border-radius: .70rem !important
 }
 
+.nav-pills .pill .nav-link:not(.active) {
+    background-color: gray;
+}
+.nav-pills .pill .nav-link {
+    background-color: #084440;
+    color: white;
+}
+.nav a:hover {
+    background: #084461 !important;
+}
+
 html {
     margin: 40px auto;
     text-align: center;
